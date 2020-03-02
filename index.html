@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Form fields with material design and video background, in pure CSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap-reboot.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form class="form-card" action="javascript:getMyClasses(searchField.value)">
+  <fieldset class="form-fieldset">
+    <legend class="form-legend">Get your KU FALL 2019 schedule early</legend>
+    <div class="form-element form-input">
+      <input id="searchField" class="form-element-field"
+        placeholder="Search for a class or text in a description of a class (eg. EECS 168)" type="input" required />
+      <div class="form-element-bar"></div>
+      <label class="form-element-label" for="searchField">Search Text</label>
+    </div>
+  </fieldset>
+  <div class="form-actions">
+    <button class="form-btn" type="submit">Download Results</button>
+  </div>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
